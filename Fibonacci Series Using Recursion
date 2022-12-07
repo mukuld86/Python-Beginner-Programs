@@ -1,5 +1,8 @@
 def fib(n):
-  pass
+  if n<=1:
+    return 1
+  else:
+    return fib(n-1)+fib(n-2)
 
 n=int(input("Enter the maximum limit to generate the fibonacci series:"))
 print("The fibonacci series is:",end=" ")
