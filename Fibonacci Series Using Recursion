@@ -1,0 +1,7 @@
+def fib(n):
+  pass
+
+n=int(input("Enter the maximum limit to generate the fibonacci series:"))
+print("The fibonacci series is:",end=" ")
+for i in range(n):
+    print(fib(i),end=" ")
